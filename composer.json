@@ -1,0 +1,26 @@
+{
+  "name": "patricksavalle/slim-request-params-v4",
+  "description": "Adds request-parameter validation to the SLIM 4.x PHP framework",
+  "version" : "v4.0",
+  "type": "library",
+  "keywords": ["validation","request","arguments","parameters","regex", "SLIM", "REST"],
+  "homepage": "https://github.com/patricksavalle/slim-request-params",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patrick Savalle",
+      "email": "patrick@patricksavalle.com",
+      "homepage": "http://patricksavalle.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "slim/slim": "^4.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SlimRequestParams\\": "."
+    }
+  }
+}
